@@ -188,16 +188,16 @@ void ThemMONHOC(listMH &lmh,MONHOC &mh,LISTLOP &dsl)
 	lmh.soluong++;// tang so luong o nho 
 	// khi them mot mon hoc vao danh sach mon hoc thi so luong mon hoc va diem thi cua 1 sinh vien trong dsdt se cap nhat theo
 	// them mot ma mh moi vao cho tung sinh vien
-	for(int i = 0;i<dsl.soluonglop;i++)
-	{
-		for(NODESV *k=dsl.dslop[i]->lsv->pHEAD;k!=NULL;k=k->pNEXT)
-		{
-			DIEMTHI dt;
-			strcpy(dt.Mamh,mh.MAMH);
-			NODEDT *pdt = KTN_DiemThi(dt);
-			Them_Dt_VaoCuoi(*k->datasv.ldt,pdt);
-		}
-	}
+//	for(int i = 0;i<dsl.soluonglop;i++)
+//	{
+//		for(NODESV *k=dsl.dslop[i]->lsv->pHEAD;k!=NULL;k=k->pNEXT)
+//		{
+//			DIEMTHI dt;
+//			strcpy(dt.Mamh,mh.MAMH);
+//			NODEDT *pdt = KTN_DiemThi(dt);
+//			Them_Dt_VaoCuoi(*k->datasv.ldt,pdt);
+//		}
+//	}
 }
 void XoaMONHOC(listMH &lmh, char mact[15],LISTLOP &dsl)
 {
