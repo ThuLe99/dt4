@@ -1,0 +1,12 @@
+10
+D17CQCN02|Cong Nghe Thong Tin 2
+D17CQCN03|Cong Nghe Thong Tin 3
+D17CQCN04|Cong Nghe Thong Tin 4
+D17DTTT01|Dien Tu 1
+D17DTTT02|Dien Tu 2
+D17DTTT03|Dien Tu 3
+D17VTQ01|Vien Thong 1
+D17VTQ02|Vien Thong 2
+D17VTQ03|Vien Thong 3
+d17cqcn01-n|Cong Nghe Thong Tin 1
+
